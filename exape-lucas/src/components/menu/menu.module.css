@@ -1,0 +1,12 @@
+.menuContainer {
+    width: 100%;
+    display: flex;
+}
+
+.menuTopics {
+    margin-right: 200px;
+}
+
+hr{
+    margin-top: 10px;
+}
