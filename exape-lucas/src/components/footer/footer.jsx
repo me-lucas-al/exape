@@ -8,6 +8,7 @@ import {
 } from "phosphor-react";
 import person from "../../assets/person.jpg";
 import styles from "./footer.module.css";
+import Form from "./form/form";
 export default function Footer() {
   return (
     <>
@@ -30,6 +31,7 @@ export default function Footer() {
             <Envelope size={48} className={styles.logos}/>
         </div>
       </div>
+      <Form />
     </>
   );
 }
