@@ -1,0 +1,36 @@
+hr{
+    margin-top: 15px;
+}
+
+.imgPerson{
+    width: 200px;
+    border-radius: 50%;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+}
+
+.subtitles{
+    width: 400px;
+    margin-left: 20px;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logosContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 60px;
+}
+.logos{
+    display: flex;
+    cursor: pointer;
+}
+

@@ -1,7 +1,8 @@
 import "./App.css";
 import logo from "./assets/logo.png";
+import Footer from "./components/footer/footer";
 import Menu from "./components/menu/menu";
-import Main from "./components/principal/main";
+import Main from "./components/receitas/main";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
           </div>
           <Menu />
           <Main />
+          <Footer />
         </div>
     </>
   );

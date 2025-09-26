@@ -1,6 +1,6 @@
 import avocado from "../../assets/chicken-avocado-pasta.jpg";
 import veg from "../../assets/sausage-veg-traybake.jpg";
-import Recipes from "../receitas/recipes";
+import Recipes from "../sub-receitas/recipes";
 import styles from "./main.module.css";
 export default function Main() {
   return (
