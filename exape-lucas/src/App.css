@@ -15,3 +15,9 @@ body {
     align-items: center;
 }
 
+.logo{
+    width: 250px;
+    height: 100px;
+    margin-bottom: 15px;
+
+}

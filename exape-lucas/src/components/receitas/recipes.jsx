@@ -1,7 +1,7 @@
 import cookies from "../../assets/cookies.jpg";
 import appleTart from "../../assets/toffee-apple-tart.png";
 import glutenFree from "../../assets/gluten-free-sweet-pastry.png"
-import cupcakes from "../../assets/"
+import cupcakes from "../../assets/blackberry-cupcakes.jpg"
 import styles from "./recipes.module.css";
 export default function Recipes() {
   return (
@@ -11,9 +11,9 @@ export default function Recipes() {
           <img
             src={cookies}
             className={styles.cookies}
-            alt="WHITE CHOCOLATE AND GINGER COOKIES"
+            alt="WHITE CHOCOLATE COOKIES"
           />
-          <p className={styles.subtitles}>WHITE CHOCOLATE AND GINGER COOKIES</p>
+          <p className={styles.subtitles}>WHITE CHOCOLATE COOKIES</p>
         </div>
         <div className={styles.secondContainer}>
           <img
@@ -23,22 +23,7 @@ export default function Recipes() {
           />
           <p className={styles.subtitles}>TOFFEE APPLE TART</p>
         </div>
-        <div className={styles.firstContainer}>
-          <img
-            src={cookies}
-            className={styles.cookies}
-            alt="WHITE CHOCOLATE AND GINGER COOKIES"
-          />
-          <p className={styles.subtitles}>WHITE CHOCOLATE AND GINGER COOKIES</p>
-        </div>
-        <div className={styles.secondContainer}>
-          <img
-            src={appleTart}
-            className={styles.appleTart}
-            alt="TOFFEE APPLE TART"
-          />
-          <p className={styles.subtitles}>TOFFEE APPLE TART</p>
-        </div>
+    
         <div className={styles.thirdContainer}>
           <img
             src={glutenFree}

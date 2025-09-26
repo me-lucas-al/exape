@@ -1,5 +1,6 @@
 import avocado from "../../assets/chicken-avocado-pasta.jpg";
 import veg from "../../assets/sausage-veg-traybake.jpg";
+import Recipes from "../receitas/recipes";
 import styles from "./main.module.css";
 export default function Main() {
   return (
@@ -23,6 +24,7 @@ export default function Main() {
           <p className={styles.subtitles}>SAUSAGE AND VEG TRAYBAKE</p>
         </div>
       </div>
+      <Recipes />
     </>
   );
 }

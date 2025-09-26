@@ -1,0 +1,13 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
